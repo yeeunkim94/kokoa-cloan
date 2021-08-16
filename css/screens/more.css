@@ -1,0 +1,52 @@
+.fa-exclamation-circle {
+  color: tomato;
+}
+.ellipsis-screen__exclamation {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.ellipsis-screen__exclamation i {
+  position: absolute;
+  left: 140px;
+  top: 8px;
+}
+.find-screen__empty {
+  width: 36%;
+}
+.more-screnn__suggestion {
+  padding: 20px var(--horizontal-space);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.more-screen__suggestion__box {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  height: 40px;
+}
+
+.more-screen__suggestion__box2 {
+  display: flex;
+  height: 80px;
+  width: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5px;
+}
+.more-screnn__suggestion span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.more-screnn__suggestion div div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.more-screen__suggestion__box2_empty {
+  width: 15%;
+}
+.more-screnn__suggestion div div span {
+  padding: 5px 0px;
+  color: #a2a2a2;
+}

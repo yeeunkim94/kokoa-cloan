@@ -1,0 +1,38 @@
+.chats-screen {
+  padding: 0px var(--horizontal-space);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-component__subtitle-chats {
+  margin-top: 8px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.chat-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 70px;
+  height: 70px;
+}
+
+.chat-component span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+}
+.chat-component div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 500;
+  margin: 7px 0px 0px 0px;
+  font-size: 15px;
+}

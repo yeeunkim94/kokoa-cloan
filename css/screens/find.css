@@ -1,0 +1,91 @@
+.find-screen {
+  padding: 0px var(--horizontal-space);
+}
+.screen-header__icons-find {
+  display: flex;
+}
+.screen-header__icons-noti {
+  display: block;
+  background-color: tomato;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+.screen-header__icons-find span i {
+  margin-right: 25px;
+}
+.find-screen__icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 20px 0px;
+  padding: 10px 10px;
+  height: 60px;
+}
+.find-screen__icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.find-screen__icons div i {
+  padding-bottom: 10px;
+}
+.find-screen__RecommendF {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.find-screen__RecommendF div:first-child {
+  font-size: 13px;
+  color: #a2a2a2;
+}
+.find-screen__RecommendF div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #a2a2a2;
+  height: 160px;
+}
+.find-screen__OpenChat {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #a2a2a2;
+}
+.find-screen__OpenChat div:last-child {
+  display: flex;
+}
+.find-screen__OpenChat__link div {
+  padding-right: 5px;
+}
+.find-screen__OpenChat__title {
+  color: grey;
+}
+.find-screen__OpenChat-example {
+  display: flex;
+  padding: 5px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+.find-screen__OpenChat-example__content {
+  display: flex;
+  flex-direction: column;
+}
+.find-screen__OpenChat-example__content span:first-child {
+  font-weight: 600;
+}
+.find-screen__OpenChat-example__content span:nth-child(2) {
+  display: block;
+  padding: 3px 0px;
+  font-size: 13px;
+  color: grey;
+}
+
+.find-screen__OpenChat-example__pic img {
+  height: 85px;
+  width: 85px;
+  border-radius: 10px;
+}
